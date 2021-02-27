@@ -14,13 +14,13 @@ function Cards() {
              
               text='Find The Best places to eat'
               label='Restaurants'
-              path='/services'
+              path='/SignUp'
             />
             <CardItem
               src={require('../Media/pic5.jpg')}
               text='Find Any Train Station '
               label='Train Stations'
-              path='/services'
+              path='/SignUp'
             />
           </ul>
           <ul className='cards__items'>
@@ -28,13 +28,13 @@ function Cards() {
              src={require('../Media/pic8.jpg')}
               text=' Find The Perfect places with The Best Coffee '
               label='Coffee Shops'
-             path='/services'
+             path='/SignUp'
             />
             <CardItem
               src={require('../Media/pic2.jpg')}
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Find any place wherever you go'
               label='International Areas'
-              path='/services'
+              path='/SignUp'
             />
             </ul>
             <ul className='cards__items'>
@@ -42,13 +42,13 @@ function Cards() {
               src={require('../Media/pic4.jpg')}
               text='Find Hotels in top destinations'
               label='Hotels'
-              path='/services'
+              path='/SignUp'
             />
             <CardItem
               src={require('../Media/pic1.jpg')}
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Our servevices are perfect for your travel'
               label='Airports'
-              path='/services'
+              path='/SignUp'
             />
           </ul>
         </div>

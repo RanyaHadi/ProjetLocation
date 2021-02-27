@@ -31,7 +31,7 @@ function Data({
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
+               <div className='top-line'>{topLine}</div>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>
                   {headline}
                 </h1>
@@ -45,7 +45,7 @@ function Data({
                   {description}
                 </p>
                 <Link to='/sign-up'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
+                  <Button buttonSize='btn--wide' buttonColor='blue' buttonStyle={buttonLabel === "Start Now"?"startnowbackG":""}>
                     {buttonLabel}
                   </Button>
                 </Link>

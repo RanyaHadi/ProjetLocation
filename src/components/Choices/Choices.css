@@ -7,7 +7,7 @@
   }
   
   .Service__container-card {
-    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    background: linear-gradient(45deg, #3684eb 0%,rgb(0, 232, 236) 100%);
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
     width: 280px;
     height: 500px;
@@ -17,7 +17,8 @@
   
   .Service__container-card:nth-child(2) {
     transform: scale(1.05);
-    background: #242424;
+    background: #242424; 
+    margin: 0 24px;
   }
   
   .Service__container-card:hover {
@@ -26,9 +27,7 @@
     color: #1c2237;
   }
   
-  .Service__container-card:nth-child(2) {
-    margin: 0 24px;
-  }
+  
   
   .Service__container {
     display: flex;

@@ -29,8 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            
-            <i class="fas fa-search-location"></i>
+          
+          <i class="fas fa-map-marker-alt"></i>
             YourWay 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -53,11 +53,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/feedback'
+                to='/pricing'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                FeedBack
+                Pricing
               </Link>
             </li>
 
